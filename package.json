@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint --fix --ext .jsx,.js,.ts,.tsx ."
@@ -20,13 +20,16 @@
     }
   },
   "dependencies": {
-    "@chakra-ui/react": "^1.6.3",
-    "@chakra-ui/theme-tools": "^1.1.7",
+    "@chakra-ui/react": "^1.8.9",
+    "@chakra-ui/system": "^1.12.1",
+    "@chakra-ui/theme-tools": "^1.3.6",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
     "@reduxjs/toolkit": "^1.6.0",
     "framer-motion": "^4",
     "next": "10.x",
+    "postcss": "^7.0.39",
+    "postcss-scss": "^3.0.5",
     "react": "17.x",
     "react-dom": "17.x",
     "react-hook-form": "^7.9.0",
@@ -38,6 +41,7 @@
     "@types/react": "^17.0.10",
     "@typescript-eslint/eslint-plugin": "^4.26.1",
     "@typescript-eslint/parser": "^4.26.1",
+    "cross-env": "^10.1.0",
     "eslint": "^7.28.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-jest-dom": "^3.9.0",
