@@ -54,7 +54,7 @@ const Footer = (): JSX.Element => {
             and visit our demo facility - we’re open 7 days a week.
           </Text>
           <Text variant="darkBackground" gridArea={{ sm: 'b' }}>
-            Copyright 2021. All Rights Reserved
+            Copyright 2025. All Rights Reserved
           </Text>
           <Box
             gridArea={{ sm: 'c' }}

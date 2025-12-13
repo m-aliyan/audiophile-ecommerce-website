@@ -42,7 +42,7 @@ const BestGear = (): JSX.Element => {
           audio gear
         </Heading>
         <Text px={{ sm: '2rem', md: '6rem', lg: 0 }} pr={{ lg: '3rem' }}>
-          Located at the heart of New York City, Audiophile is the premier store
+          Located at the heart of Pakistan, Audiophile is the premier store
           for high end headphones, earphones, speakers, and audio accessories.
           We have a large showroom and luxury demonstration rooms available for
           you to browse and experience a wide range of our products. Stop by our
